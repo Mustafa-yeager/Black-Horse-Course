@@ -1,0 +1,75 @@
+body
+{
+    background-color: rgb(37, 37, 37);
+}
+.section-layer
+{
+    background-image: url(./img/pexels-andreea-ch-371539-1166644.jpg);
+    height: 100vh;
+    background-size: cover;
+    overflow:auto;
+    margin: 10px;
+    
+
+}
+
+
+
+.container
+{
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pic
+{
+    width: 25%;
+    padding: 5px;
+
+    
+    
+}
+
+img
+{
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+/*
+.home_content h1 
+{
+    color: rgb(250, 0, 0);
+}
+
+.home_content button
+{
+    padding: 10px;
+    border-radius: 300px;
+    border: 2px solid rgb(250, 0, 0);
+}
+    */
+
+.dark-layer{
+    overflow: auto;
+    background-color: rgba(5, 5, 5, 0.5);
+    height: 100vh;
+}
+
+.con-3
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: aqua;
+}
+
+.item
+{
+    background-color: burlywood;
+    padding: 5px;
+}
