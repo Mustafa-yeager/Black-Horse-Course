@@ -15,12 +15,25 @@ body
 
 
 
-.container
+.dark-layer-container
 {
     overflow: auto;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: rgba(5, 5, 5, 0.5);
+    height: 100vh;
+}
+
+.normal-layer-container
+{
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+        height: 100vh;
+
+   
 }
 
 .pic
@@ -39,25 +52,6 @@ img
 
 }
 
-/*
-.home_content h1 
-{
-    color: rgb(250, 0, 0);
-}
-
-.home_content button
-{
-    padding: 10px;
-    border-radius: 300px;
-    border: 2px solid rgb(250, 0, 0);
-}
-    */
-
-.dark-layer{
-    overflow: auto;
-    background-color: rgba(5, 5, 5, 0.5);
-    height: 100vh;
-}
 
 .con-3
 {
