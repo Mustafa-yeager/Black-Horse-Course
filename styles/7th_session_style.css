@@ -1,0 +1,43 @@
+body
+{
+    background-color: #123524;
+}
+
+.container
+{
+    margin: 10%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+}
+
+.father
+{
+
+    cursor:pointer;
+}
+.image
+{
+    opacity: 1;
+    transition: .5s ease;
+
+}
+.father:hover .image
+{
+opacity: .6;
+color: black;
+
+}
+
+.cover
+{
+    opacity: 0;
+}
+
+.father:hover .cover
+{
+opacity: 1;
+color: black;
+
+}
+
